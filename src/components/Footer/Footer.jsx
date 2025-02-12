@@ -13,11 +13,11 @@ const Footer = () => {
           <h3 className="text-xl font-semibold">
             Get started with a free consultation call
           </h3>
-          <a href="#consult">
+          <Link to="/call">
             <button className="mt-4 px-6 py-2 bg-secondary text-black font-semibold rounded-full hover:bg-[#d64639] hover:text-white transition duration-300">
               Contact Us
             </button>
-          </a>
+          </Link>
         </div>
       </div>
       <div className="mt-12 gap-5 flex flex-col lg:flex-row justify-between">
