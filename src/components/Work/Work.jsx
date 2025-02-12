@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { assets } from "../../assets/assets";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 const Work = () => {
   useEffect(() => {
@@ -56,7 +57,7 @@ const Work = () => {
         ))}
       </div>
       <div className="flex justify-center items-center my-8">
-        <Link to="">
+        <Link to="/work">
           <button className="bg-transparent border-2 border-primary text-xl text-text hover:bg-secondary hover:text-white transition-all  px-5 duration-500 py-2 rounded-full font-normal max-lg:text-base">
             View More
           </button>
