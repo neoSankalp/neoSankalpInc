@@ -20,7 +20,7 @@ export default function TeamSlider() {
     },
     {
       name: "Sparsh",
-      position: "Development Manager (Intern)",
+      position: "Development Manager",
       image: "teamImg5",
       info: "Overseeing software development projects at NeoSankalp.",
       social: {
@@ -30,7 +30,7 @@ export default function TeamSlider() {
     },
     {
       name: "Himanshi",
-      position: "Head of Business Development (Intern)",
+      position: "Head of Business Development",
       image: "teamImg3",
       info: "Managing business growth and development strategies.",
       social: {
@@ -50,7 +50,7 @@ export default function TeamSlider() {
     },
     {
       name: "Utkarsh",
-      position: "Marketing Strategist (Intern)",
+      position: "Marketing Strategist",
       image: "teamImg6",
       info: "Planning and executing marketing campaigns.",
       social: {
@@ -60,7 +60,7 @@ export default function TeamSlider() {
     },
     {
       name: "Aniket",
-      position: "Social Media Manager (Intern)",
+      position: "Social Media Manager",
       image: "teamImg1",
       info: "Managing NeoSankalp’s social media presence.",
       social: {
@@ -70,7 +70,7 @@ export default function TeamSlider() {
     },
     {
       name: "Garv",
-      position: "Client Relations Specialist (Intern)",
+      position: "Client Relations Specialist",
       image: "teamImg2",
       info: "Handling client communication and relations.",
       social: {
@@ -80,7 +80,7 @@ export default function TeamSlider() {
     },
     {
       name: "Dhruv",
-      position: "Frontend Web Developer (Intern)",
+      position: "Frontend Web Developer",
       image: "teamImg8",
       info: "Building and optimizing user-friendly web interfaces.",
       social: {

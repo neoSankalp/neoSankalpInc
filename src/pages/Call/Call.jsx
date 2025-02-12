@@ -42,7 +42,7 @@ const Call = () => {
         {/* Call to Actions */}
         <div className="mt-8 flex justify-center gap-4 max-[680px]:flex-col">
           <a
-            href=""
+            href="https://wa.me/9718189785"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full flex items-center gap-2 transition-all duration-300 max-[680px]:flex max-[680px]:justify-center max-[450px]:text-sm max-[450px]:font-medium"

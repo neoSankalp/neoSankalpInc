@@ -56,13 +56,13 @@ const Work = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-center items-center my-8">
+      {/* <div className="flex justify-center items-center my-8">
         <Link to="/work">
           <button className="bg-transparent border-2 border-primary text-xl text-text hover:bg-secondary hover:text-white transition-all  px-5 duration-500 py-2 rounded-full font-normal max-lg:text-base">
             View More
           </button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 };

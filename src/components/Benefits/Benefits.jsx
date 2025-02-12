@@ -82,7 +82,7 @@ const Benefits = () => {
                   <img
                     src={assets[feature.img]}
                     alt={feature.title}
-                    className="w-20 h-20 rounded-lg shadow-md opacity-90 transition-transform duration-300 group-hover:scale-110"
+                    className="w-32 h-32 rounded-lg transition-transform duration-300 group-hover:scale-110"
                   />
                   {/* Glow Effect */}
                   <div className="absolute inset-0 w-full h-full bg-white opacity-5 blur-lg rounded-lg"></div>
