@@ -1,6 +1,7 @@
 import { MenuIcon, XIcon } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { HashLink as LinkDirect } from "react-router-hash-link";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -44,64 +45,70 @@ export default function Navbar() {
             }`}
           >
             <li className="navLinksLi hover:text-secondary">
-              <a
-                href="#about"
+              <LinkDirect
+                smooth
+                to="/#about"
                 onClick={() => {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
                 About
-              </a>
+              </LinkDirect>
             </li>
             <li className="navLinksLi hover:text-secondary">
-              <a
-                href="#services"
+              <LinkDirect
+                smooth
+                to="/#services"
                 onClick={() => {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
                 Services
-              </a>
+              </LinkDirect>
             </li>
             <li className="navLinksLi hover:text-secondary">
-              <a
-                href="#work"
+              <LinkDirect
+                smooth
+                to="/#work"
                 onClick={() => {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
                 Work
-              </a>
+              </LinkDirect>
             </li>
             <li className="navLinksLi hover:text-secondary">
-              <a
-                href="#benefits"
+              <LinkDirect
+                smooth
+                to="/#benefits"
                 onClick={() => {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
                 Benefits
-              </a>
+              </LinkDirect>
             </li>
             <li className="navLinksLi hover:text-secondary">
-              <a
-                href="#faq"
+              <LinkDirect
+                smooth
+                to="/#faq"
                 onClick={() => {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
                 FAQs
-              </a>
+              </LinkDirect>
             </li>
             <li className="navLinksLi hover:text-secondary">
-              <a
-                href="#team"
+              <LinkDirect
+                smooth
+                to="/#team"
                 onClick={() => {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
                 Team
-              </a>
+              </LinkDirect>
             </li>
             <li className="hidden max-md:block">
               <Link to="/call">

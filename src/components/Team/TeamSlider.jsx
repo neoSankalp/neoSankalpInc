@@ -133,7 +133,7 @@ export default function TeamSlider() {
                   {member.name}
                 </h1>
 
-                <div className="absolute bottom-0 w-full h-[200px] bg-gradient-to-b from-transparent via-black/80 to-black rounded-b-2xl flex items-end px-5 pb-5 justify-between">
+                <div className="absolute bottom-0 w-full h-[200px] bg-gradient-to-b from-[rgba(0,0,0,0.01)] via-black/100 to-black rounded-b-2xl flex items-end px-5 pb-5 justify-between">
                   <div className="text-white">
                     <p className="text-white font-bold text-xl">
                       {member.position}
@@ -141,20 +141,13 @@ export default function TeamSlider() {
                     <div className="flex gap-5 py-2">
                       <a
                         href={member.social.linkedin}
-                        className="text-lg"
+                        className="text-2xl text-blue-500 bg-white p-2 rounded-lg"
                         target="blank"
                       >
                         <BsLinkedin />
                       </a>
-                      <a
-                        href={member.social.portfolio}
-                        className="text-lg"
-                        target="blank"
-                      >
-                        <BsGlobe />
-                      </a>
                     </div>
-                    <p>{member.info}</p>
+                    <p className="font-medium">{member.info}</p>
                     <div className="w-full h-[3px] bg-gradient-to-r from-transparent via-white to-transparent my-2"></div>
                   </div>
                 </div>
