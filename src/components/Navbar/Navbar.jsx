@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <>
       <div className="sticky bg-white mx-auto rounded-2xl top-4 max-md:top-0 max-md:mx-0 max-md:w-full w-11/12 z-50 bg-opacity-70 backdrop-blur-md shadow-2xl">
-        <div className="flex justify-between items-center max-xl:px-12 max-lg:px-5 max-lg:flex-col max-lg:space-y-5 max-md:space-y-0 max-lg:py-2 max-md:py-5">
+        <div className="flex justify-between items-center max-xl:px-12 max-lg:px-5 max-[1095px]:flex-col max-lg:space-y-5 max-md:space-y-0 max-lg:py-2 max-md:py-5">
           <div className="max-md:w-full max-md:flex max-md:items-center max-md:justify-between max-md:z-50">
             <div className="rounded-lg px-6 max-[500px]:px-0">
               <Link

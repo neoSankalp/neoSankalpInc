@@ -5,7 +5,7 @@ export default function Hero() {
     <>
       <div className="flex pt-[5vh] px-32 max-xl:px-12 max-lg:px-5 max-sm:flex-col">
         <div className="w-3/5 h-full max-sm:w-full">
-          <h1 className="text-4xl max-xl:text-4xl mt-10 leading-tight font-normal">
+          <h1 className="text-4xl max-lg:text-3xl max-md:text-2xl mt-10 leading-tight font-normal">
             Your One-Stop{" "}
             <span className="text-primary">Solution—Bringing</span> All Your
             Tech, Media, and <span className="text-primary">Digital </span>
