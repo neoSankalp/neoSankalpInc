@@ -1,8 +1,11 @@
 import React from "react";
 import { BsInstagram, BsLinkedin, BsTwitter } from "react-icons/bs";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+  const location = useLocation();
+
   return (
     <footer className="bg-text text-white py-8 px-6">
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
@@ -10,14 +13,28 @@ const Footer = () => {
           <h1 className="text-4xl font-medium text-secondary">NeoSankalp</h1>
         </div>
         <div className="mt-6 lg:mt-0">
-          <h3 className="text-xl font-semibold">
-            Get started with a free consultation call
-          </h3>
-          <Link to="/call">
-            <button className="mt-4 px-6 py-2 bg-secondary text-black font-semibold rounded-full hover:bg-[#d64639] hover:text-white transition duration-300">
-              Contact Us
-            </button>
-          </Link>
+          {location.pathname === "/call" ? (
+            <p className="font-medium">
+              <span className="text-secondary font-medium">Neo</span>Sankalp –
+              Innovating for a better tomorrow,
+              <br /> one solution at a time!
+            </p>
+          ) : (
+            <div>
+              <h3 className="text-xl font-semibold">
+                Get started with a free consultation call
+              </h3>
+              <a
+                onClick={() => {
+                  scrollTo(0, 0), navigate("/call");
+                }}
+              >
+                <button className="mt-4 px-6 py-2 bg-secondary text-black font-semibold rounded-full hover:bg-[#d64639] hover:text-white transition duration-300">
+                  Contact Us
+                </button>
+              </a>
+            </div>
+          )}
         </div>
       </div>
       <div className="mt-12 gap-5 flex flex-col lg:flex-row justify-between">
