@@ -9,7 +9,7 @@ const Call = () => {
     Aos.init({ duration: 1000, delay: 300 });
   }, []);
   return (
-    <section className="h-screen overflow-hidden bg-gradient-to-b from-purple-100 to-white pt-[15vh] px-32 relative max-sm:px-5">
+    <section className="h-screen overflow-hidden bg-gradient-to-t from-purple-100 to-white pt-[15vh] px-32 relative max-sm:px-5">
       <div className="absolute top-60 right-10 max-sm:top-72">
         <img
           src={assets.arrow1}
