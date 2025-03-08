@@ -37,7 +37,7 @@ export default function Navbar() {
               {isMenuOpen ? (
                 <XIcon className="w-6 h-6 text-gray-900" />
               ) : (
-                <MenuIcon className="w-6 h-6 text-gray-900" />
+                <MenuIcon className="w-6 h-6 text-gray-900" /> //menu icon
               )}
             </button>
           </div>
