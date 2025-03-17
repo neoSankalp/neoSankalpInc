@@ -2,6 +2,7 @@ import confetti from "canvas-confetti";
 import { assets } from "../../assets/assets";
 import { Card, CardContent } from "@/components/ui/card";
 import { useEffect, useState } from "react";
+import { PlusCircle } from "lucide-react";
 
 export default function Hero() {
   const [openModal, setOpenModal] = useState(true);
@@ -129,12 +130,12 @@ export default function Hero() {
             </div>
             <Card className="relative w-96 bg-white rounded-lg overflow-hidden shadow-lg">
               {/* Close button */}
-              <div className="absolute top-4 right-4">
+              <div className="absolute top-4 right-4 z-10">
                 <button
-                  className="text-black text-2xl font-bold"
+                  className="bg-slate-700 p-1 rounded-full"
                   onClick={() => setOpenModal(false)}
                 >
-                  ×
+                  <PlusCircle className="text-white rotate-45 w-6 h-6" />
                 </button>
               </div>
 
