@@ -31,7 +31,7 @@ import teamImg7 from "./teamImg7.webp";
 import teamImg8 from "./teamImg8.webp";
 import partnerImg1 from "./partnerImg1.webp";
 import partnerImg2 from "./partnerImg2.webp";
-import giftbox from "./giftbox.png";
+import giftbox from "./giftbox.webp";
 
 export const assets = {
   img1,
