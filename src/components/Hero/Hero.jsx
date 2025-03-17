@@ -22,11 +22,111 @@ export default function Hero() {
     });
   }, []);
 
+  const marqueeKeyframes = `
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+  `;
+
+  const marquee2Keyframes = `
+    @keyframes marquee2 {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(0%); }
+    }
+  `;
+
+  const marqueeStyle = {
+    animation: "marquee 50s linear infinite",
+  };
+
+  const marquee2Style = {
+    animation: "marquee2 50s linear infinite",
+  };
+
   return (
     <>
       <div className="w-full h-full">
         {openModal && (
-          <div className="fixed top-0 left-0 w-full h-screen z-50 flex justify-center items-center bg-black/40 backdrop-blur-sm">
+          <div className="fixed top-0 left-0 w-full h-screen z-50 flex justify-center items-center bg-black/80 backdrop-blur-sm">
+            <div className="w-full bg-emerald-400 fixed top-0 left-0 z-50 py-2 overflow-hidden">
+              <style>{marqueeKeyframes}</style>
+              <style>{marquee2Keyframes}</style>
+
+              <div className="relative flex whitespace-nowrap">
+                <div className="flex" style={marqueeStyle}>
+                  <span className="font-medium">Special Dhamaka Offer</span>
+                  <span className="ml-2">
+                    Get a fast, dynamic, and modern website at an unbeatable
+                    price!
+                  </span>
+
+                  <span className="mx-6 text-red-500">🎉</span>
+
+                  <span className="font-bold">Custom Design |</span>
+                  <span className="ml-2 font-bold">Mobile Responsive |</span>
+                  <span className="ml-2 font-bold">
+                    Admin Panel for Easy Management |
+                  </span>
+                  <span className="ml-2 font-bold">SEO Friendly</span>
+
+                  <span className="mx-6">🎁</span>
+
+                  <span className="font-medium">Special Dhamaka Offer</span>
+                  <span className="ml-2">
+                    Get a fast, dynamic, and modern website at an unbeatable
+                    price!
+                  </span>
+
+                  <span className="mx-6 text-red-500">🎉</span>
+
+                  <span className="font-bold">Custom Design |</span>
+                  <span className="ml-2 font-bold">Mobile Responsive |</span>
+                  <span className="ml-2 font-bold">
+                    Admin Panel for Easy Management |
+                  </span>
+                  <span className="ml-2 font-bold">SEO Friendly</span>
+
+                  <span className="mx-6">🎁</span>
+                </div>
+
+                <div className="flex" style={marquee2Style}>
+                  <span className="font-medium">Special Dhamaka Offer</span>
+                  <span className="ml-2">
+                    Get a fast, dynamic, and modern website at an unbeatable
+                    price!
+                  </span>
+
+                  <span className="mx-6 text-red-500">🎉</span>
+
+                  <span className="font-bold">Custom Design |</span>
+                  <span className="ml-2 font-bold">Mobile Responsive |</span>
+                  <span className="ml-2 font-bold">
+                    Admin Panel for Easy Management |
+                  </span>
+                  <span className="ml-2 font-bold">SEO Friendly</span>
+
+                  <span className="mx-6">🎁</span>
+
+                  <span className="font-medium">Special Dhamaka Offer</span>
+                  <span className="ml-2">
+                    Get a fast, dynamic, and modern website at an unbeatable
+                    price!
+                  </span>
+
+                  <span className="mx-6 text-red-500">🎉</span>
+
+                  <span className="font-bold">Custom Design |</span>
+                  <span className="ml-2 font-bold">Mobile Responsive |</span>
+                  <span className="ml-2 font-bold">
+                    Admin Panel for Easy Management |
+                  </span>
+                  <span className="ml-2 font-bold">SEO Friendly</span>
+
+                  <span className="mx-6">🎁</span>
+                </div>
+              </div>
+            </div>
             <Card className="relative w-96 bg-white rounded-lg overflow-hidden shadow-lg">
               {/* Close button */}
               <div className="absolute top-4 right-4">
