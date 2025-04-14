@@ -27,7 +27,7 @@ export default function Navbar() {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
-                <span className="navLogo text-primary">Neo</span>Sankalp
+                <span className="navLogo text-secondary">Neo</span>Sankalp
               </Link>
             </div>
             <button
