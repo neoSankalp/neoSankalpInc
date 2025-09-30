@@ -19,6 +19,16 @@ export default function TeamSlider() {
       },
     },
     {
+      name: "Himanshi",
+      position: "Head of Business Development",
+      image: "teamImg3",
+      info: "Managing business growth and development strategies.",
+      social: {
+        portfolio: "#",
+        linkedin: "https://www.linkedin.com/in/himanshi-chawla-03285320b",
+      },
+    },
+    {
       name: "Sparsh",
       position: "Development Manager",
       image: "teamImg5",
@@ -29,13 +39,13 @@ export default function TeamSlider() {
       },
     },
     {
-      name: "Himanshi",
-      position: "Head of Business Development",
-      image: "teamImg3",
-      info: "Managing business growth and development strategies.",
+      name: "Dhruv",
+      position: "Frontend Web Developer",
+      image: "teamImg8",
+      info: "Building and optimizing user-friendly web interfaces.",
       social: {
-        portfolio: "#",
-        linkedin: "https://www.linkedin.com/in/himanshi-chawla-03285320b",
+        portfolio: "https://dhruvpalportfolio.vercel.app/",
+        linkedin: "https://www.linkedin.com/in/dhruv1086k/",
       },
     },
     {
@@ -56,36 +66,6 @@ export default function TeamSlider() {
       social: {
         portfolio: "#",
         linkedin: "https://www.linkedin.com/in/utkarsh-utkarsh-942442321/",
-      },
-    },
-    {
-      name: "Aniket",
-      position: "Social Media Manager",
-      image: "teamImg1",
-      info: "Managing NeoSankalp’s social media presence.",
-      social: {
-        portfolio: "#",
-        linkedin: "https://www.linkedin.com/in/aniket-tomar-a17954250/",
-      },
-    },
-    {
-      name: "Garv",
-      position: "Client Relations Specialist",
-      image: "teamImg2",
-      info: "Handling client communication and relations.",
-      social: {
-        portfolio: "#",
-        linkedin: "https://www.linkedin.com/in/garv-taneja-819983285",
-      },
-    },
-    {
-      name: "Dhruv",
-      position: "Frontend Web Developer",
-      image: "teamImg8",
-      info: "Building and optimizing user-friendly web interfaces.",
-      social: {
-        portfolio: "https://dhruvpalportfolio.vercel.app/",
-        linkedin: "https://www.linkedin.com/in/dhruv1086k/",
       },
     },
   ];
@@ -163,6 +143,8 @@ export default function TeamSlider() {
             <BiSolidRightArrow />
           </button>
         </div>
+
+        
       </div>
     </>
   );

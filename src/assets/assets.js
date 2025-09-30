@@ -21,8 +21,6 @@ import phone2 from "./phone2.webp";
 import phone3 from "./phone3.webp";
 import arrow1 from "./arrow1.webp";
 import arrow2 from "./arrow2.webp";
-import teamImg1 from "./teamImg1.webp";
-import teamImg2 from "./teamImg2.webp";
 import teamImg3 from "./teamImg3.webp";
 import teamImg4 from "./teamImg4.webp";
 import teamImg5 from "./teamImg5.webp";
@@ -57,8 +55,6 @@ export const assets = {
   phone3,
   arrow1,
   arrow2,
-  teamImg1,
-  teamImg2,
   teamImg3,
   teamImg4,
   teamImg5,
